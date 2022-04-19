@@ -74,55 +74,6 @@ def do_this_command(message):
         webbrowser.open(url)
         time.sleep(5)
 
-    elif "1000 - 7" in message:
-        i = 1000
-        say_message("Я.... Гуль")
-        while i != 6:
-            i = i - 7
-            print(i)
-        webbrowser.open("https://www.youtube.com/watch?v=eXvPgDmMLDk")
-        time.sleep(5)
-
-    elif "таблица умножения на 2" in message:
-        for i in range(10):
-            i += 1
-            print(f"2 * {i} = ", 2 * i)
-
-    elif "таблица умножения на три" in message:
-        for i in range(10):
-            i += 1
-            print(f"3 * {i} = ", 3 * i)
-
-    elif "таблица умножения на четыре" in message:
-        for i in range(10):
-            i += 1
-            print(f"4 * {i} = ", 4 * i)
-
-    elif "таблица умножения на пять" in message:
-        for i in range(10):
-            i += 1
-            print(f"5 * {i} = ", 5 * i)
-
-    elif "таблица умножения на шесть" in message:
-        for i in range(10):
-            i += 1
-            print(f"6 * {i} = ", 6 * i)
-
-    elif "таблица умножения на семь" in message:
-        for i in range(10):
-            i += 1
-            print(f"7 * {i} = ", 7 * i)
-
-    elif "таблица умножения на восемь" in message:
-        for i in range(10):
-            i += 1
-            print(f"8 * {i} = ", 8 * i)
-
-    elif "таблица умножения на девять" in message:
-        for i in range(10):
-            i += 1
-            print(f"9 * {i} = ", 9 * i)
-
     elif "пока" in message:
         say_message("Пока!")
         exit()
